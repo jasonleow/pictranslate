@@ -19,23 +19,23 @@ sections:
     layout_style: tiles
     component: PortfolioBlock
   - type: servicesblock
-    title: What We Do
+    title: How to use
     section_id: services
     component: ServicesBlock
-    subtitle: An optional subtitle of the section
+    subtitle: Here's how you can use the illustrated poster and flash cards
     serviceslist:
-      - title: Service Title
+      - title: At screening & triage
         content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla tortor at, pulvinar orci.
-      - title: Service Title
+      - title: At the wards
         content: "Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
           tincidunt ut tellus. Vivamus rhoncus mattis varius. "
-      - title: Service title
+      - title: At community isolation facilities like Expo
         content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
           non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - title: Service title
+      - title: "At clinics, dorms and other healthcare facilities "
         content: Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis justo,
           sit amet condimentum lorem nibh vel quam. Duis consectetur lorem
           ipsum, non efficitur urna viverra et.
@@ -43,7 +43,7 @@ sections:
     title: Testimonials
     section_id: testimonials
     component: TestimonialsBlock
-    subtitle: An optional subtitle of the section
+    subtitle: What people are saying about VisualAid
     testimonialslist:
       - author: John Doe
         avatar: images/john_doe.jpg
@@ -55,19 +55,19 @@ sections:
           convallis, interdum ligula vel, pretium diam. Integer commodo sem at
           dui sollicitudin, vel posuere justo laoreet.
   - type: postsblock
-    title: Latest from the Blog
+    title: Latest from our blog
     section_id: latest-posts
     component: PostsBlock
-    subtitle: An optional subtitle of the section
+    subtitle: Our thoughts on visual communication
     num_posts_displayed: 2
     actions:
-      - label: View Blog
+      - label: View blog
         url: blog/index.html
   - type: contactblock
-    title: Contact Us
+    title: Contact us
     section_id: contact
     component: ContactBlock
-    subtitle: An optional subtitle of the section
+    subtitle: Contact us if you have suggested words to add to the illustrations!
 menus:
   main:
     title: Home
