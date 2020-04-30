@@ -10,7 +10,7 @@ sections:
       illustrations as a visual aid to help you communicate what you mean,
       better.
   - view_all_text: View All
-    num_projects_displayed: 9
+    num_projects_displayed: 10
     section_id: latest-projects
     view_all_url: portfolio/index.html
     subtitle: See all the illustrations available.
@@ -20,25 +20,30 @@ sections:
     component: PortfolioBlock
   - type: servicesblock
     title: How to use
-    section_id: services
+    section_id: how-to-use
     component: ServicesBlock
     subtitle: Here's how you can use the illustrated poster and flash cards
     serviceslist:
       - title: At screening & triage
-        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla tortor at, pulvinar orci.
+        content: Use these visual aids to ask about symptoms, living environment, travel
+          history.
       - title: At the wards
-        content: "Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius. "
+        content: Use these visual aids to talk about ongoing symptoms, health markers
+          and daily needs.
       - title: At community isolation facilities like Expo
-        content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
-          non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - title: "At clinics, dorms and other healthcare facilities "
-        content: Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis justo,
-          sit amet condimentum lorem nibh vel quam. Duis consectetur lorem
-          ipsum, non efficitur urna viverra et.
+        content: Use the illustrations for communicating daily needs and wants, like
+          toiletries, clothes, snacks, games.
+      - title: "At clinics and other healthcare facilities "
+        content: For any other situations in other healthcare facilities.
+  - type: postsblock
+    title: Why VisualAid
+    section_id: latest-posts
+    component: PostsBlock
+    subtitle: Our research & thoughts behind the designs
+    num_posts_displayed: 2
+    actions:
+      - label: View blog
+        url: blog/index.html
   - type: testimonialsblock
     title: Testimonials
     section_id: testimonials
@@ -54,15 +59,6 @@ sections:
         content: Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
           convallis, interdum ligula vel, pretium diam. Integer commodo sem at
           dui sollicitudin, vel posuere justo laoreet.
-  - type: postsblock
-    title: Why VisualAid
-    section_id: latest-posts
-    component: PostsBlock
-    subtitle: Our research & thoughts behind the designs
-    num_posts_displayed: 2
-    actions:
-      - label: View blog
-        url: blog/index.html
   - type: contactblock
     title: Contact us
     section_id: contact
