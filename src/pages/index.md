@@ -58,7 +58,7 @@ sections:
     title: Latest from our blog
     section_id: latest-posts
     component: PostsBlock
-    subtitle: Our thoughts on visual communication
+    subtitle: Our thoughts on visual communication in the time of COVID-19
     num_posts_displayed: 2
     actions:
       - label: View blog
