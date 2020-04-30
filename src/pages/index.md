@@ -10,7 +10,7 @@ sections:
       illustrations as a visual aid to help you communicate what you mean,
       better.
   - view_all_text: View All
-    num_projects_displayed: 29
+    num_projects_displayed: 9
     section_id: latest-projects
     view_all_url: portfolio/index.html
     subtitle: See all the illustrations available.
@@ -55,10 +55,10 @@ sections:
           convallis, interdum ligula vel, pretium diam. Integer commodo sem at
           dui sollicitudin, vel posuere justo laoreet.
   - type: postsblock
-    title: Latest from our blog
+    title: Why VisualAid
     section_id: latest-posts
     component: PostsBlock
-    subtitle: Our thoughts on visual communication in the time of COVID-19
+    subtitle: Our research & thoughts behind the designs
     num_posts_displayed: 2
     actions:
       - label: View blog
