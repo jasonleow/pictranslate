@@ -1,13 +1,13 @@
 {
-  "title": "PicTranslate",
+  "title": "VisualAid",
   "color_scheme": "light",
   "accent_color": "pink",
   "header": {
-    "title": "PicTranslate",
+    "title": "VisualAid",
     "has_nav": true
   },
   "footer": {
-    "content": "&copy; PicTranslate. All rights reserved.",
+    "content": "&copy; VisualAid. All rights reserved.",
     "links": [
       {
         "text": "Made with Stackbit",
